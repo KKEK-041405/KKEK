@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "kkek-ef277"
-  }
+    "default": "kkek-7169b",
+    "kkek": "kkek-7169b"
+  },
+  "targets": {},
+  "etags": {}
 }
