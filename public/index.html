@@ -5,6 +5,29 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>KKEK</title>
+  <script>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCXKeQx-Wyp36NFbp5e0Q2ziPJVDa34bLY",
+      authDomain: "kkek-041405.firebaseapp.com",
+      projectId: "kkek-041405",
+      storageBucket: "kkek-041405.appspot.com",
+      messagingSenderId: "992298132814",
+      appId: "1:992298132814:web:45d33602b1b622485a6a1f",
+      measurementId: "G-B3F8KQWPW8"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -32,6 +55,7 @@
         <div id="middle" class="animated slideInDown" style="animation-delay: 2000ms; pointer-events: none;">
         <h1 style="color: #fff; text-decoration-line: none;" >KKEK</h1>
         <h2 style="color: #fff;">Konatham Komal Eshwara Kumar</h2>
+        <h4 style="color: #fff;">Explore the World of KKEK</h4>
         <table>
             <tr>
                 <td class="animated zoomIn" style="animation-delay:2.2s; pointer-events: all;"><a class="social"

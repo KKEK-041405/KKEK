@@ -1,8 +1,10 @@
 {
   "projects": {
-    "default": "kkek-7169b",
-    "kkek": "kkek-7169b"
+    "default": "kkek-041405",
+    "kkek": "kkek-7169b",
+    "kkek-041405": "kkek-041405"
   },
   "targets": {},
-  "etags": {}
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

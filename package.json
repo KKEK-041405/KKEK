@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@google/generative-ai": "^0.2.1",
-    "firebase": "^10.8.0",
+    "firebase": "^10.13.1",
+    "firebase-tools": "^13.16.0",
     "particles.js": "^2.0.0"
   },
   "devDependencies": {
